@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title>Proof of concept</title>
+    
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #d9dde4;
+            overflow-x:  hidden;
+        }
+
+        .sidenav h1 {
+            color:black;
+            padding: 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidenav a {
+            color:black;
+            padding: 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            background-color: #1d4066;
+            color: #d9dde4;
+        }
+
+        .home_page {
+            margin-left: 200px;
+            padding-left: 20px;
+        }
+
+        .home_page h1 {
+            margin-top: 100px;
+        }
+
+        .images {
+            
+            display: flex;
+            width: auto;
+        }
+        .image1 {
+            flex: 1;
+            padding: 10px;
+            height: 250px;
+        }
+
+        @media screen and (max-width:800px){
+            .images {
+                flex-direction: column;
+            }
+        }
+   
+    </style>
+</head>
+
+<body>
+    <div class="sidenav">
+        <h1 class="logo">NoteEasily</h1>
+        <input type="text">
+        <input type="button" value="search">
+        <a href="index.html">Home</a>
+        <a href="Notes.html">Notes</a>
+        <a href="Community.html">Community</a>
+        <a href="About_us.html">About Us</a>
+    </div>
+
+    <div class="home_page">
+        <h1>Home</h1>
+        <p>Trending</p>
+
+        <div class="images">
+            <img class="image1" src="https://deadline.com/wp-content/uploads/2019/05/topic2018-final.png">
+            <img class="image1" src="https://image.shutterstock.com/image-vector/topics-colorful-letters-banner-260nw-1209323515.jpg">
+            <img class="image1" src="https://image.shutterstock.com/image-photo/wooden-blocks-text-topic-magnifying-260nw-1863883072.jpg">
+        </div>
+
+        <p>Recently Changed</p>
+
+        <div class="images">
+            <img class="image1" src="http://farm4.staticflickr.com/3789/10177514664_0ff9a53cf8_z.jpg">
+            <img class="image1" src="https://images.theconversation.com/files/82315/original/image-20150520-30501-xrg6gx.png?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip">
+            <img class="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_XNrxxQ6uBXNLahs-mMxlQNg_6ADVpZU7TQ&usqp=CAU">
+        </div>
+    </div>
+   
+     
+   
+</body>

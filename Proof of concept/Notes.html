@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>Proof of concept</title>
+    
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #d9dde4;
+            overflow-x:  hidden;
+        }
+
+        .sidenav h1 {
+            color:black;
+            padding: 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidenav a {
+            color:black;
+            padding: 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            background-color: #1d4066;
+            color: #d9dde4;
+        }
+
+        .home_page {
+            margin-left: 200px;
+            padding-left: 20px;
+        }
+
+        .home_page h1 {
+            margin-top: 100px;
+        }
+
+        .images {
+            
+            display: flex;
+            width: auto;
+        }
+        .image1 {
+            flex: 1;
+            padding: 10px;
+            height: 250px;
+        }
+
+        @media screen and (max-width:800px){
+            .images {
+                flex-direction: column;
+            }
+        }
+   
+    </style>
+</head>
+
+<body>
+    <div class="sidenav">
+        <h1 class="logo">NoteEasily</h1>
+        <a href="index.html">Home</a>
+        <a href="Notes.html">Notes</a>
+        <a href="Community.html">Community</a>
+        <a href="About_us.html">About Us</a>
+    </div>
+
+    <div class="home_page">
+        <h1>Notes</h1>
+        
+    </div>
+   
+     
+   
+</body>
